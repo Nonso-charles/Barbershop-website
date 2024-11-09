@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
+    
+    .navbar-custom {
+      background: url('path-to-your-hero-section-image.jpg') no-repeat center center/cover;
+    }
+    .appointment-btn {
+      background-color: black; /* Coffee brown color */
+      color: #ffffff;
+    }
+    .appointment-btn:hover {
+      background-color: #5a3e2d; /* Darker shade for hover effect */
+    }
+    
+    a {
+        font-family: montserrat;
+    }
+    
+    h1, h2, h3 {
+        font-family: oswald;
+    }
+    
+    p {
+        font-family: open sans;
+    }
+    
+    .hero-section {
+      background: url('hero-img.png') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      text-align: center;
+      position: relative;
+    }
+    .hero-overlay {
+      background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+    .hero-heading {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .hero-subtext {
+      font-size: 1.5rem;
+      margin-top: 10px;
+    }
+    
+      .services-section {
+    background-color: #f8f9fa; /* Light grey background */
+  }
+  .card-title {
+    font-weight: bold;
+    color: #333; /* Dark color for better readability */
+  }
+  .card-text {
+    color: #555; /* Slightly lighter text color */
+  }
+  
+  .icon {
+      width: 30px;
+      height: 30px;
+  }
+  
+    .about-us h2 {
+    font-weight: bold;
+    color: #333; /* Dark color for the heading */
+  }
+  .about-us p {
+    color: #555; /* Dark grey for text */
+    margin-bottom: 1rem;
+  }
+  .about-us img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  }
+  
+    .gallery h2 {
+    font-weight: bold;
+    color: #333; /* Dark color for the heading */
+  }
+  .gallery .card {
+    border: none; /* Remove card border for a clean look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 8px; /* Rounded corners */
+  }
+  .gallery .card img {
+    border-radius: 8px 8px 0 0; /* Rounded top corners */
+  }
+  .gallery .card-body {
+    text-align: center; /* Center the text */
+    background-color: #f9f9f9; /* Light background for the card body */
+    border-radius: 0 0 8px 8px; /* Rounded bottom corners */
+  }
+  .gallery .card-text {
+    margin: 0;
+    font-weight: 500; /* Medium weight */
+    color: #555; /* Dark grey text */
+  }
+  
+    .contact-section {
+    background-color: #f7f7f7; /* Light grey background */
+    border-radius: 8px; /* Rounded corners */
+  }
+  .contact-section h2 {
+    font-weight: bold;
+    color: #333; /* Dark text for the title */
+  }
+  .contact-section a {
+    color: #007bff; /* Bootstrap primary color for links */
+  }
+  .contact-section .btn {
+    background-color: black; /* black color */
+    border: none;
+  }
+  .contact-section .btn:hover {
+    background-color: darkgray; /* Darkgray on hover */
+  }
+  
+    .appointment-section {
+    background-color: #f7f7f7; /* Light grey background */
+    border-radius: 8px; /* Rounded corners */
+  }
+  .appointment-section h2 {
+    font-weight: bold;
+    color: #333; /* Dark text for the title */
+  }
+  .appointment-section .btn {
+    background-color: black; /* Coffee brown color */
+    border: none;
+  }
+  .appointment-section .btn:hover {
+    background-color: darkgray; /* Darker brown on hover */
+  }
